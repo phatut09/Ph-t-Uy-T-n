@@ -361,7 +361,7 @@ function Update:Window(text,logo,keybind)
     Ping.Position = UDim2.new(0.28, 0,0.074, 0)
     Ping.Size = UDim2.new(0, 225, 0, 25)
     Ping.Font = Enum.Font.GothamSemibold
-    Ping.Text = "             | PHAT UT HUB |                  "
+    Ping.Text = "             | Phát UT |                  "
     Ping.TextColor3 = Color3.fromRGB(255,255,255)
     Ping.TextSize = 14.000
     Ping.TextXAlignment = Enum.TextXAlignment.Left
@@ -3829,7 +3829,7 @@ getgenv().HyperCahayas = function(p)
     end)
     
 
-local Library = Update:Window("PHAT UT Hub","",Enum.KeyCode.RightControl);
+local Library = Update:Window("Phát UT Hub","",Enum.KeyCode.RightControl);
 
 --local NguyenTien = Library:AddTab("Information","4483345998")
 local Main = Library:AddTab("Main","4483345998")
