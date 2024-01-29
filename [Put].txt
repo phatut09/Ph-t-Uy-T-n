@@ -1,4 +1,4 @@
----[Notify Má»›i LÃ m:))]
+---[Phát UT]
 local Notif = {}
 
 local CoreGUI = game:GetService("CoreGui")
