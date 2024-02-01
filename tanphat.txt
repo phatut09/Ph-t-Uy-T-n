@@ -12431,7 +12431,7 @@ end)
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Buso")
     end)
     
-    S:AddButton("Buy Soru [ $25,000 Beli ]",function()
+    S:AddButton("Buy Flash Step [ $100,000 Beli ]",function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Soru")
     end)
     
@@ -12516,7 +12516,7 @@ end)
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySuperhuman")
     end)
     
-    S:AddButton("Buy Death Step | $5,000 Frag $5,000,000  ",function()
+    S:AddButton("Buy Death Step | $5,000 Frag $2,500,000  ",function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyDeathStep")
     end)
     
@@ -13751,25 +13751,26 @@ Misc:AddButton("Kaitun Cap", function(value)
     Misc:AddSeperator("Codes")
     
     local x2Code = {
-        "KITTGAMING",
+        "NEWTROLL",
+        "SUB2FER999",
         "ENYU_IS_PRO",
-        "FUDD10",
-        "BIGNEWS",
-        "THEGREATACE",
-        "SUB2GAMERROBOT_EXP1",
-        "STRAWHATMAIME",
+        "JCWK",
+        "STARCODEHЕО",
+        "MAGICBUS",
+        "KITTGAMING",
+        "SUB2CAPTAINMAUI",
         "SUB2OFFICIALNOOBIE",
+        "THEGREATACE",
         "SUB2NOOBMASTER123",
         "SUB2DAIGROCK",
         "AXIORE",
-        "TANTAIGAMIMG",
         "STRAWHATMAINE",
-        "JCWK",
+        "TANTAIGAMING",
+        "BLUXXY",
+        "SUB2GAMERROBOT_EXP1",
+        "FUDD10",
         "FUDD10_V2",
-        "SUB2FER999",
-        "MAGICBIS",
-        "TY_FOR_WATCHING",
-        "STARCODEHEO"
+        "BIGNEWS",
     }
     
     Misc:AddButton("Redeem All Codes",function()
@@ -13781,7 +13782,7 @@ Misc:AddButton("Kaitun Cap", function(value)
         end
     end)
     
-    Misc:AddDropdown("Selected Codes Reset stat",{"NOOB_REFUND","SUB2GAMERROBOT_RESET1","Sub2UncleKizaru"},function(value)
+    Misc:AddDropdown("Selected Codes Reset stat",{"KITT_RESET","SUB2GAMERROBOT_RESET1","Sub2UncleKizaru"},function(value)
         _G.CodeSelect = value
     end)
     
