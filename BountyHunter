@@ -40,6 +40,8 @@ getgenv().TweenSpeed = 300 -- 350 max or Get Tp Back
 
                 ["C"] = {["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
 
+                ["V"] = {["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
+
             },
         },
 
