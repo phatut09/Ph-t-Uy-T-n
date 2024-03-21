@@ -14,16 +14,16 @@ getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
             ["C"] = {["Enable"] = true,["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
             },
         },
-        ["Blox Fruit"] = {["Enable"] = true, ["Delay"] = 1.25,
+        ["Blox Fruit"] = {["Enable"] = false, ["Delay"] = 1.25,
             ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 1, ["TimeToNextSkill"] = 0,},
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
                 ["X"] = { ["Enable"] = true, ["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
-                ["C"] = { ["Enable"] = true, ["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
-                ["V"] = { ["Enable"] = true, ["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
-                ["F"] = {["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
+                ["C"] = { ["Enable"] = false, ["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
+                ["V"] = { ["Enable"] = false, ["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
+                ["F"] = {["Enable"] = false, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
             },
         },
-        ["Sword"] = { ["Enable"] = false, ["Delay"] = 0.7,
+        ["Sword"] = { ["Enable"] = true, ["Delay"] = 0.7,
             ["Skills"] = {
                 ["Z"] = {["Enable"] = true, ["HoldTime"] = 0 ,["TimeToNextSkill"] = 0,},
                 ["X"] = {["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
@@ -31,8 +31,8 @@ getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
         },
         ["Gun"] = {["Enable"] = false, ["Delay"] = 2,
             ["Skills"] = {
-                ["Z"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,},
-                ["X"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,
+                ["Z"] = {["Enable"] = true,["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
+                ["X"] = {["Enable"] = true,["HoldTime"] = 0,["TimeToNextSkill"] = 0,
                 },
             },
         }
