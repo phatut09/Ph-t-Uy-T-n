@@ -37,4 +37,4 @@ getgenv().TweenSpeed = 300 -- 350 max or Get Tp Back
             },
         }
     }
-loadstring(game:HttpGet('https://raw.githubusercontent.com/vinhuchi/temp-repos/main/FreeAutoBounty.lua'))()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/vinhuchi/temp-repos/main/FreeAutoBounty.lua'))()
