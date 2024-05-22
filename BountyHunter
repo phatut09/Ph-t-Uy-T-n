@@ -1,3 +1,4 @@
+script_key = "zWzwAHYUkznXRhfTjwSEpnabUYFpwkUS"
 getgenv().SpamSkill = true
 getgenv().AutoUseRaceV3 = true
 getgenv().AutoUseRacev4 = true
@@ -37,4 +38,4 @@ getgenv().TweenSpeed = 300 -- 350 max or Get Tp Back
             },
         }
     }
- loadstring(game:HttpGet('https://raw.githubusercontent.com/vinhuchi/temp-repos/main/FreeAutoBounty.lua'))()
+ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6d24ef1f7dab9c7b22f259a3db6c47e.lua"))()
